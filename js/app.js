@@ -1,6 +1,6 @@
 'use strict';
 
-let score=0;
+let score=1;
 let username=prompt("hello whats your name ? ");
 alert('hello '+username);
 
@@ -104,6 +104,7 @@ for (let i = 0; i < 4; i++) {
     if (number==5) {
         alert("Yea Good job ")
         score++
+        break;
         
     } else if(number<5) {
         alert("Your number is too low ")
