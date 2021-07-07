@@ -157,3 +157,4 @@ for (let i = 0; i < 6; i++) {
 question7();
 
 alert("your score is "+ score + "out of 7")
+alert ("Bye bye " +username)
