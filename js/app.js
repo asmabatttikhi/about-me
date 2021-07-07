@@ -41,8 +41,10 @@ let alien=prompt('am i an alian ?').toLowerCase();
         alert('please only write yes/y or no/n');
     }
 }
-question2()
+question2();
+
 //Q3
+function question3(){
 let food=prompt('do i eat cat food ?').toLowerCase();
     //console.log(food);
     food=food.toLowerCase();
@@ -56,7 +58,11 @@ let food=prompt('do i eat cat food ?').toLowerCase();
     }else{
         alert('please only write yes/y or no/n');
     }
+   }
+    question3();
+
 //Q4
+function question4(){
 let rich=prompt('am i going to be rich ?').toLowerCase();
    //console.log(rich);
    rich=rich.toLowerCase();
@@ -70,9 +76,11 @@ let rich=prompt('am i going to be rich ?').toLowerCase();
 }else{
     alert('please only write yes/y or no/n');
 }
-
+}
+question4();
 
 //Q5
+function question5(){
 let fly=prompt('can i fly?').toLowerCase();
    // console.log(fly);
    fly=fly.toLowerCase();
@@ -86,10 +94,10 @@ let fly=prompt('can i fly?').toLowerCase();
 } else {
     alert('please only write yes/y or no/n');
 }
-
-
+}
+question5
 //Q6 
-
+function question6(){
 let number=prompt("Please guess any number between 1 and 10")
 for (let i = 0; i < 4; i++) {
    
@@ -113,8 +121,8 @@ for (let i = 0; i < 4; i++) {
     }
     
 }
-
-
+}
+question6()
 //Q7
 let color1=["pink","red","black","white" ];
 let response=prompt("Guess My favourite color please!")
