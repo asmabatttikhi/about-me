@@ -124,6 +124,7 @@ for (let i = 0; i < 4; i++) {
 }
 question6()
 //Q7
+function question7(){
 let color1=["pink","red","black","white" ];
 let response=prompt("Guess My favourite color please!")
 let flag=false
@@ -151,3 +152,5 @@ for (let i = 0; i < 6; i++) {
 
 
 }
+}
+question7()
