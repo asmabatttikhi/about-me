@@ -95,7 +95,7 @@ let fly=prompt('can i fly?').toLowerCase();
     alert('please only write yes/y or no/n');
 }
 }
-question5
+question5;
 //Q6 
 function question6(){
 let number=prompt("Please guess any number between 1 and 10")
@@ -122,7 +122,7 @@ for (let i = 0; i < 4; i++) {
     
 }
 }
-question6()
+question6();
 //Q7
 function question7(){
 let color1=["pink","red","black","white" ];
@@ -153,4 +153,6 @@ for (let i = 0; i < 6; i++) {
 
 }
 }
-question7()
+question7();
+
+alert("your score is "+ score + "out of 7")
