@@ -24,121 +24,122 @@ if(myname==='yes'|| myname==='y'){
 question1();
 
 
-// //Q2
-
-// let alien=prompt('am i an alian ?').toLowerCase();
-//     //console.log(alien);
-//     alien=alien.toLowerCase();
+//Q2
+function question2(){
+let alien=prompt('am i an alian ?').toLowerCase();
+    //console.log(alien);
+    alien=alien.toLowerCase();
     
-//     if(alien==='yes'||alien==='y'){
-//         //console.log('false');
-//         alert('false');
-//     }else if ((alien==='no'||alien==='n' )){
-//         //console.log('correct');
-//         alert('correct');
-//         score++
-//     } else {
-//         alert('please only write yes/y or no/n');
-//     }
-
-// //Q3
-// let food=prompt('do i eat cat food ?').toLowerCase();
-//     //console.log(food);
-//     food=food.toLowerCase();
-//     if(food==='yes'||food==='y'){
-//         //console.log('false');
-//         alert('false');
-//     }else if ((food==='no'||food==='n')){
-//         //console.log('correct');
-//         alert('correct');
-//         score++
-//     }else{
-//         alert('please only write yes/y or no/n');
-//     }
-// //Q4
-// let rich=prompt('am i going to be rich ?').toLowerCase();
-//    //console.log(rich);
-//    rich=rich.toLowerCase();
-//    if(rich==='yes' ||rich==='y'){
-//     //console.log('correct');
-//     alert('correct');
-//     score++
-// }else if(rich==='no' ||rich==='n'){
-//     //console.log('false');
-//     alert('false');
-// }else{
-//     alert('please only write yes/y or no/n');
-// }
-
-
-// //Q5
-// let fly=prompt('can i fly?').toLowerCase();
-//    // console.log(fly);
-//    fly=fly.toLowerCase();
-//    if(fly==='yes'||fly==='y'){
-//     //console.log('false');
-//     alert('false');
-// }else if ((fly==='no'||fly==='n')){
-//     //console.log('correct');
-//     alert('correct');
-//     score++
-// } else {
-//     alert('please only write yes/y or no/n');
-// }
+    if(alien==='yes'||alien==='y'){
+        //console.log('false');
+        alert('false');
+    }else if ((alien==='no'||alien==='n' )){
+        //console.log('correct');
+        alert('correct');
+        score++
+    } else {
+        alert('please only write yes/y or no/n');
+    }
+}
+question2()
+//Q3
+let food=prompt('do i eat cat food ?').toLowerCase();
+    //console.log(food);
+    food=food.toLowerCase();
+    if(food==='yes'||food==='y'){
+        //console.log('false');
+        alert('false');
+    }else if ((food==='no'||food==='n')){
+        //console.log('correct');
+        alert('correct');
+        score++
+    }else{
+        alert('please only write yes/y or no/n');
+    }
+//Q4
+let rich=prompt('am i going to be rich ?').toLowerCase();
+   //console.log(rich);
+   rich=rich.toLowerCase();
+   if(rich==='yes' ||rich==='y'){
+    //console.log('correct');
+    alert('correct');
+    score++
+}else if(rich==='no' ||rich==='n'){
+    //console.log('false');
+    alert('false');
+}else{
+    alert('please only write yes/y or no/n');
+}
 
 
-// //Q6 
+//Q5
+let fly=prompt('can i fly?').toLowerCase();
+   // console.log(fly);
+   fly=fly.toLowerCase();
+   if(fly==='yes'||fly==='y'){
+    //console.log('false');
+    alert('false');
+}else if ((fly==='no'||fly==='n')){
+    //console.log('correct');
+    alert('correct');
+    score++
+} else {
+    alert('please only write yes/y or no/n');
+}
 
-// let number=prompt("Please guess any number between 1 and 10")
-// for (let i = 0; i < 4; i++) {
+
+//Q6 
+
+let number=prompt("Please guess any number between 1 and 10")
+for (let i = 0; i < 4; i++) {
    
-//     if (number==5) {
-//         alert("Yea Good job ")
-//         score++
+    if (number==5) {
+        alert("Yea Good job ")
+        score++
         
-//     } else if(number<5) {
-//         alert("Your number is too low ")
-//         number=prompt("Please try  guessing any number between 1 and 10 again")
-//     }
-//     else if(number>5){
+    } else if(number<5) {
+        alert("Your number is too low ")
+        number=prompt("Please try  guessing any number between 1 and 10 again")
+    }
+    else if(number>5){
         
-//         alert("Your number is too high ")
-//         number=prompt("Please try  guessing any number between 1 and 10 again")
-//     }
-//     else{
+        alert("Your number is too high ")
+        number=prompt("Please try  guessing any number between 1 and 10 again")
+    }
+    else{
         
-//         alert("please type number ")
-//         number=prompt("Please try  guessing any number between 1 and 10 again")
-//     }
+        alert("please type number ")
+        number=prompt("Please try  guessing any number between 1 and 10 again")
+    }
     
-// }
+}
 
 
-// //Q7
-// let color1=["pink","red","black","white" ];
-// let response=prompt("Guess My favourite color please!")
-// let flag=false
-// for (let i = 0; i < 6; i++) {
+//Q7
+let color1=["pink","red","black","white" ];
+let response=prompt("Guess My favourite color please!")
+let flag=false
+for (let i = 0; i < 6; i++) {
     
-//  for (let j = 0; j < color1.length; j++) {
-//      if (response===color1[j]) {
-//          alert("Correct color")
-//          score++
-//          flag=true
-//          break;  
-//      }
+ for (let j = 0; j < color1.length; j++) {
+     if (response===color1[j]) {
+         alert("Correct color")
+         score++
+         flag=true
+         break;  
+     }
      
 
-//      }
-//   if(flag===true){
-//       break;
+     }
+  if(flag===true){
+      break;
 
 
-//   }
-//   else{
+  }
+  else{
     
-//     response=prompt("please try Guess My favourite color again")
-//  }
+    response=prompt("please try Guess My favourite color again")
+ }
 
 
-// }
+}
