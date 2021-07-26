@@ -1,0 +1,39 @@
+header h1 {
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Fantasy;
+    font-size: 200% ;
+    text-transform: uppercase;
+}
+
+ #left {
+  float: left;
+  width: 50%;
+}
+
+#right {
+    float: right;
+    width: 50%;
+
+  }
+p{
+    background-color: burlywood;
+    padding: 10px;
+}
+
+    ul{
+        margin-left: 20px;
+         list-style-type: decimal;
+        }
+
+    ol{
+            margin-left: 20px;
+             list-style-type: decimal;
+            }
+
+ol {
+    margin-top: 30px;
+}
+
+
